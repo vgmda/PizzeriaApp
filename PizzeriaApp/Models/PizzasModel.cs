@@ -17,6 +17,8 @@ public class PizzasModel
 
     public bool Pepperoni { get; set; }
 
+    public bool Cheese { get; set; }
+
     public bool Mushroom { get; set; }
 
     public bool Tuna { get; set; }
@@ -26,6 +28,8 @@ public class PizzasModel
     public bool Ham { get; set; }
 
     public bool Beef { get; set; }
+
+    public float FinalPrice { get; set; }
 
 }
 
