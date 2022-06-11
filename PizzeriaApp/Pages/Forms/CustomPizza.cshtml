@@ -3,28 +3,36 @@
 @{
 }
 
-<div class="text-center container">
-    <h1>Create Your Own Pizza!</h1>
-    <form method="post" class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-5 bg-light col-4">
+<div class="row d-flex justify-content-center">
+    <h1 class="text-center">Create Your Own Pizza!</h1>
+    <!--mx-auto mt-5 mb-5 px-5 pt-5 pb-5 bg-black-->
+    <form method="post" class="col-md-2 bg-light pt-3 pb-3">
         <!--Use the input of type text to assing it to the Pizza Model-->
         <input type="text" asp-for="Pizza.PizzaName" placeholder="Name the Pizza.." />
-        <br />
-        <input type="checkbox" asp-for="Pizza.TomatoSauce" placeholder="Tomato Sauce" />Tomato Sauce
-        <br />
-        <input type="checkbox" asp-for="Pizza.Cheese" placeholder="Cheese" />Cheese
-        <br />
-        <input type="checkbox" asp-for="Pizza.Pepperoni" placeholder="Pepperoni" />Pepperoni
-        <br />
-        <input type="checkbox" asp-for="Pizza.Ham" placeholder="Ham" />Ham
-        <br />
-        <input type="checkbox" asp-for="Pizza.Mushroom" placeholder="Mushroom" />Mushroom
-        <br />
-        <input type="checkbox" asp-for="Pizza.Tuna" placeholder="Tuna" />Tuna
-        <br />
-        <input type="checkbox" asp-for="Pizza.Beef" placeholder="Beef" />Beef
-        <br />
-        <input type="checkbox" asp-for="Pizza.Pineapple" placeholder="Pineapple" />Pineapple
-        <br />
+        <div class="checkbox">
+            <input type="checkbox" asp-for="Pizza.TomatoSauce" placeholder="Tomato Sauce" />Tomato Sauce
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" asp-for="Pizza.Cheese" placeholder="Cheese" />Cheese
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" asp-for="Pizza.Pepperoni" placeholder="Pepperoni" />Pepperoni
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" asp-for="Pizza.Ham" placeholder="Ham" />Ham
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" asp-for="Pizza.Mushroom" placeholder="Mushroom" />Mushroom
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" asp-for="Pizza.Tuna" placeholder="Tuna" />Tuna
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" asp-for="Pizza.Beef" placeholder="Beef" />Beef
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" asp-for="Pizza.Pineapple" placeholder="Pineapple" />Pineapple
+        </div>
         <button class="btn btn-primary mt-1" type="submit">Order Pizza</button>
     </form>
 </div>
