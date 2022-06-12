@@ -20,11 +20,12 @@ namespace PizzeriaApp.Pages.Checkout
 
         public void OnGet()
         {
+            // Validation - If the name of the pizza is not entered, set it to 'Custom'
             if (string.IsNullOrWhiteSpace(PizzaName))
             {
                 PizzaName = "Custom";
             }
-
+            // Validation - If the image path for the pizza is not provided, set it to 'Create.png'
             if (string.IsNullOrWhiteSpace(ImageTitle))
             {
                 ImageTitle = "Create";
