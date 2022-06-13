@@ -11,7 +11,7 @@ public class PizzasModel
 
     public string PizzaName { get; set; }
 
-    public float BasePrice { get; set; }
+    public float BasePrice { get; set; } = 2;
 
     public bool TomatoSauce { get; set; }
 
