@@ -12,6 +12,7 @@
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="NuGet.PackageManagement" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -24,5 +25,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="NuGet.PackageManagement" Version="6.2.1" />
   </ItemGroup>
 </Project>
