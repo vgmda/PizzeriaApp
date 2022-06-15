@@ -20,6 +20,7 @@ namespace PizzeriaApp.Pages.Forms
 
         public IActionResult OnPost()
         {
+
             PizzaPrice = Pizza.BasePrice;
 
             if (Pizza.TomatoSauce)
