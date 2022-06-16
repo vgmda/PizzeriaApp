@@ -25,6 +25,7 @@ public class CheckoutModel : PageModel
         {
             PizzaName = "Custom";
         }
+
         // Validation - If the image path for the pizza is not provided, set it to 'Create.png'
         if (string.IsNullOrWhiteSpace(ImageTitle))
         {
@@ -32,6 +33,7 @@ public class CheckoutModel : PageModel
         }
 
     }
+
 
 
 }
