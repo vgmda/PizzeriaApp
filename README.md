@@ -6,4 +6,5 @@ ASP.NET Core is the web side of .NET Core development. Under this umbrella are t
 
 .NET Framework Architecture is a programming model for the .NET platform that provides an execution environment and integration with various programming languages for simple development and deployment of various Windows and desktop applications. It consists of class libraries and reusable components.
 
-![alt text](https://www.guru99.com/images/c-sharp-net/052416_1343_WhatisNETFr1.png)
+![Img](https://www.guru99.com/images/c-sharp-net/052416_1343_WhatisNETFr1.png)              
+.NET Framework Architecture Diagram
